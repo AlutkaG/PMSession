@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+.wave-container {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: #e9bd75;
+    overflow: hidden;
+    color: #464646;
+    font-family: "Raleway", sans-serif;
+}
+
+.wave-text-small {
+    padding-top: 15vh;
+    padding-left: 20vh;
+    font-size: 23px;
+}
+.wave-text-big {
+    padding-top: 1vh;
+    padding-left: 20vh;
+    font-size: 60px;
+}
+
+.wave-text {
+}
+
+/* Waves styling and waves animations */
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../../Assets/wave.png);
+    background-size: 1000px 100px;
+}
+.wave1 {
+    animation: animate 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+}
+
+.wave2 {
+    animation: animate2 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+}
+
+.wave3 {
+    animation: animate2 20s linear infinite;
+    z-index: 998;
+    opacity: 0.3;
+    animation-delay: -2s;
+    bottom: 15px;
+}
+
+@keyframes animate {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 1000px;
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: -1000px;
+    }
+}
