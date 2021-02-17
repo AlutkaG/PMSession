@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import logo from "../../img/logoPMSession.png";
+import { HashLink as Link } from "react-router-hash-link";
+import logo from "../../Assets/logoPMSession.png";
 
 import "./Navbar.css";
 
@@ -14,9 +14,9 @@ const Navbar = () => {
 				</div>
 				<div className='spacer' />
 				<div className='top-nav-links-right'>
-					<Link to='#'>O konferencji</Link>
-					<Link to='#'>Statystyki</Link>
-					<Link to='#'>Opinie</Link>
+					<Link to='/about-conference#about-conference'>O konferencji</Link>
+					<Link to='/statistics#statistics'>Statystyki</Link>
+					<Link to='/thoughts#thoughts'>Opinie</Link>
 					<Link to='#'>Prelegenci</Link>
 					<Link to='#'>Harmonogram</Link>
 					<Link to='#'>Sponsorzy</Link>
