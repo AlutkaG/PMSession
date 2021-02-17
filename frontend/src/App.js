@@ -1,6 +1,10 @@
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
-import { Router } from "react-router-dom";
+import AboutConference from "./Components/AboutConference/AboutConference";
+import Statistics from "./Components/Statistics/Statistics";
+import Thoughts from "./Components/Thoughts/Thoughts";
+import TopWave from "./Components/TopWave/TopWave";
+import { Router, Switch, Route } from "react-router-dom";
 import { createBrowserHistory } from "history";
 
 const newHistory = createBrowserHistory();
@@ -10,12 +14,10 @@ function App() {
 		<Router history={newHistory}>
 			<div className='App'>
 				<Navbar />
-				{/*<Switch>
-					<Route exact path='/'>
-						<Redirect to='home' />
-					</Route>
-					<Route path='/home' component={Navbar} />
-        </Switch>*/}
+				<TopWave />
+				<AboutConference />
+				<Statistics />
+				<Thoughts />
 			</div>
 		</Router>
 	);
