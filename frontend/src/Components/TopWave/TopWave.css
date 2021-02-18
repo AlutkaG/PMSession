@@ -1,4 +1,4 @@
-.wave-container {
+.wave-container2 {
 	position: relative;
 	width: 100%;
 	height: 840px;
@@ -8,17 +8,6 @@
 	overflow: hidden;
 	color: white;
 	font-family: "Raleway", sans-serif;
-}
-
-.wave-text-small {
-	padding-top: 15vh;
-	padding-left: 20vh;
-	font-size: 23px;
-}
-.wave-text-big {
-	padding-top: 1vh;
-	padding-left: 20vh;
-	font-size: 60px;
 }
 
 .wave-text {

@@ -3,7 +3,7 @@ import logo from "../../Assets/logo2018BW.png";
 const TopWave = () => {
 	return (
 		<div>
-			<section className='wave-container'>
+			<section className='wave-container2'>
 				<div style={{ display: "flex" }}>
 					<div className='wave-text'>
 						<div className='wave-text1'>24-25 kwietnia 2021</div>
