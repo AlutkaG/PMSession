@@ -1,0 +1,149 @@
+.img-conf {
+	width: 642px;
+	height: 642px;
+	border-radius: 100%;
+}
+
+.header-conf {
+	width: 506px;
+	height: 94px;
+	font-size: 80px;
+	font-weight: bold;
+	color: #464646;
+	font-family: "Raleway";
+	margin-top: 227px;
+	margin-left: 430px;
+}
+
+.text-conf {
+	width: 862px;
+	height: 480px;
+	font-size: 25px;
+	font-weight: 600;
+	color: #464646;
+	font-family: "Raleway";
+	margin-left: 66px;
+	margin-top: 88px;
+	text-align: justify;
+}
+
+.grey-circle {
+	margin-left: 95px;
+	margin-top: -550px;
+	width: 636px;
+	height: 625px;
+	background-color: rgba(206, 203, 216, 0.35);
+	border-radius: 100%;
+}
+
+.slider {
+	margin-left: 188px;
+	margin-top: 328px;
+	width: 642px;
+	height: 642px;
+	overflow: hidden;
+}
+
+.slides {
+	display: flex;
+}
+
+.slides input {
+	display: none;
+}
+
+.slide {
+	width: 100%;
+	transition: 1s;
+}
+
+.slide img {
+	width: 642px;
+	height: 642px;
+	border-radius: 100%;
+}
+
+.navigation-manual {
+	position: absolute;
+	width: 642px;
+	display: flex;
+	justify-content: center;
+	margin-top: -90px;
+}
+
+.manual-btn {
+	width: 30px;
+	height: 30px;
+	border: 2px solid #ffffff;
+	border-radius: 100%;
+	cursor: pointer;
+	transition: 0.5s;
+	margin-left: 22px;
+}
+
+.manual-btn:hover {
+	background-color: #ffffff;
+}
+
+#radio1:checked ~ .first {
+	margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+	margin-left: -100%;
+}
+
+#radio3:checked ~ .first {
+	margin-left: -200%;
+}
+
+#radio4:checked ~ .first {
+	margin-left: -300%;
+}
+
+#radio5:checked ~ .first {
+	margin-left: -400%;
+}
+
+.navigation-auto {
+	position: absolute;
+	width: 642px;
+	display: flex;
+	justify-content: center;
+	margin-top: 555px;
+}
+
+.navigation-auto div {
+	width: 30px;
+	height: 30px;
+	border: 2px solid white;
+	border-radius: 100%;
+	cursor: pointer;
+	transition: 0.5s;
+	margin-left: 22px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+	background-color: #ffffff;
+	transform: scale(1.5);
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+	background-color: #ffffff;
+	transform: scale(1.5);
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+	background-color: #ffffff;
+	transform: scale(1.5);
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+	background-color: #ffffff;
+	transform: scale(1.5);
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5 {
+	background-color: #ffffff;
+	transform: scale(1.5);
+}
