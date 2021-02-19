@@ -1,0 +1,50 @@
+.stat-header {
+	color: #464646;
+	width: 621px;
+	height: 94px;
+	font-size: 80px;
+	font-weight: bold;
+	font-family: "Raleway";
+	margin-top: 228px;
+	margin-left: 650px;
+}
+
+.stat-box {
+	width: 482px;
+	height: 364px;
+	background-color: #2f0ac3;
+	border: 1px solid #707070;
+	border-radius: 99px;
+	margin-right: 99px;
+}
+
+.stat-row1 {
+	display: flex;
+	margin-left: 138px;
+	margin-top: 157px;
+	font-family: "Raleway";
+}
+
+.stat-row2 {
+	display: flex;
+	margin-left: 138px;
+	margin-top: 98px;
+	font-family: "Raleway";
+}
+
+.stat-number {
+	font-weight: bold;
+	color: white;
+	font-size: 140px;
+	height: 165px;
+}
+
+.yellow {
+	color: #efb822;
+}
+
+.stat-text {
+	font-weight: 600;
+	font-size: 55px;
+	color: white;
+}
