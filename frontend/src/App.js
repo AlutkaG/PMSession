@@ -4,6 +4,7 @@ import AboutConference from "./Components/AboutConference/AboutConference";
 import Statistics from "./Components/Statistics/Statistics";
 import Thoughts from "./Components/Thoughts/Thoughts";
 import TopWave from "./Components/TopWave/TopWave";
+import Sponsors from "./Components/Sponsors/Sponsors";
 import { Router } from "react-router-dom";
 import { createBrowserHistory } from "history";
 
@@ -18,6 +19,7 @@ function App() {
 				<AboutConference />
 				<Statistics />
 				<Thoughts />
+				<Sponsors />
 			</div>
 		</Router>
 	);
