@@ -6,6 +6,13 @@ import photo4 from "../../Assets/photo4.jpg";
 import photo5 from "../../Assets/photo5.jpg";
 import { useState, useEffect } from "react";
 
+const slidesImg = [
+	{ slide: photo3 },
+	{ slide: photo1 },
+	{ slide: photo4 },
+	{ slide: photo5 },
+];
+
 const AboutConference = () => {
 	const [activeRadio, setActiveRadio] = useState(null);
 	const [checked, setChecked] = useState(3);
@@ -20,17 +27,16 @@ const AboutConference = () => {
 
 	useEffect(() => {
 		var counter = 1;
-
 		const interval = setInterval((e) => {
 			document.getElementById("radio" + counter).checked = true;
-
+			setActiveRadio(0);
 			counter++;
 			if (counter > 5) {
 				counter = 1;
 			}
 		}, 5000);
 		return () => clearInterval(interval);
-	});
+	}, []);
 	return (
 		<div id='about-conference'>
 			<div style={{ display: "flex" }}>
@@ -78,21 +84,21 @@ const AboutConference = () => {
 								checked={checked === 5 ? "checked" : ""}
 							/>
 
+							{/* pierwsze zdjecie, ktore jest odnosnikiem 
+								do przesuwania sie kolejnych zdj. */}
 							<div className='slide first'>
 								<img src={photo2} alt='Zdjęcie' />
 							</div>
-							<div className='slide'>
-								<img src={photo3} alt='Zdjęcie' />
-							</div>
-							<div className='slide '>
-								<img src={photo1} alt='Zdjęcie' />
-							</div>
-							<div className='slide'>
-								<img src={photo4} alt='Zdjęcie' />
-							</div>
-							<div className='slide'>
-								<img src={photo5} alt='Zdjęcie' />
-							</div>
+
+							{/* mapowanie zdjec */}
+							{slidesImg.map((slide, index) => {
+								return (
+									<div key={index} className='slide'>
+										<img src={slide.slide} alt='Zdjęcie' />
+									</div>
+								);
+							})}
+
 							<div className='navigation-auto'>
 								<div className='auto-btn1'></div>
 								<div className='auto-btn2'></div>

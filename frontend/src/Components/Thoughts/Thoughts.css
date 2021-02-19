@@ -1,0 +1,18 @@
+.th-header {
+	color: #464646;
+	font-size: 80px;
+	font-weight: bold;
+	font-family: "Raleway";
+	width: 761px;
+	height: 94px;
+	margin-left: 580px;
+}
+
+.grey-circle3 {
+	width: 847px;
+	height: 843px;
+	border-radius: 100%;
+	background-color: rgba(206, 203, 216, 0.35);
+	margin-top: 177px;
+	margin-left: -75px;
+}
