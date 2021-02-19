@@ -2,15 +2,13 @@ import TimeLine from "../../TimeLine/TimeLine";
 import "./Programme.css";
 const Programme = () => {
     return (
-        <div>
+        <div className="programme">
             <h1 className="programme-title">Harmonogram</h1>
 
+            <div className="date-container-left">24 kwietnia</div>
             <TimeLine />
-            
-            <div>
-                <div className="date-container-left">24 kwietnia</div>
-                <div className="date-container-right">24 kwietnia</div>
-            </div>
+
+            <div className="date-container-right">25 kwietnia</div>
         </div>
     );
 };

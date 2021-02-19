@@ -1,9 +1,14 @@
+.programme {
+    display: flex;
+    flex-direction: column;
+}
+
 .programme-title {
     text-align: center;
 }
 
 .date-container-left {
-    
+    width: 15vh;
     background-color: #efb822;
     display: inline-block;
     font-size: 30px;
@@ -12,11 +17,11 @@
 }
 
 .date-container-right {
-    
+    width: 5em;
     background-color: #efb822;
     display: inline-block;
     font-size: 30px;
     border-radius: 20vh 0 0 20vh;
     padding: 4vh;
-    
+    margin-left: auto;
 }
