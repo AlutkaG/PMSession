@@ -2,7 +2,7 @@ import "./Statistics.css";
 
 const Statistics = () => {
 	return (
-		<div id='statistics'>
+		<div id='statistics' style={{ overflowX: "hidden" }}>
 			<div className='grey-circle2' />
 			<div style={{ marginTop: "-900px" }}>
 				<div className='stat-header'>Nasze statystyki</div>
