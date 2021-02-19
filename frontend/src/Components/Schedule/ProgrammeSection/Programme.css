@@ -1,0 +1,22 @@
+.programme-title {
+    text-align: center;
+}
+
+.date-container-left {
+    
+    background-color: #efb822;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 0 20vh 20vh 0;
+    padding: 4vh;
+}
+
+.date-container-right {
+    
+    background-color: #efb822;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 20vh 0 0 20vh;
+    padding: 4vh;
+    
+}
