@@ -48,3 +48,11 @@
 	font-size: 55px;
 	color: white;
 }
+
+.grey-circle2 {
+	width: 962px;
+	height: 941px;
+	background-color: rgba(206, 203, 216, 0.35);
+	border-radius: 100%;
+	margin-left: 1260px;
+}
