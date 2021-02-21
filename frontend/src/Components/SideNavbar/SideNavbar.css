@@ -1,0 +1,43 @@
+.side-nav {
+	height: 300px;
+	margin-top: 109px;
+	background-color: #ffffff;
+	box-shadow: -1px 13px 29px 0px rgba(0, 0, 0, 0.17);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	z-index: 1;
+	text-align: center;
+	padding-top: 20px;
+	transform: translateY(1);
+}
+
+.side-nav a {
+	padding-bottom: 10px;
+	text-decoration: none;
+	font-size: 22px;
+	color: #707070;
+	display: block;
+	font-family: "Raleway";
+}
+
+.side-nav a:hover {
+	color: #595959;
+}
+
+.side-close-btn {
+	background-color: #ffffff;
+	outline: none;
+	border-style: none;
+	border-width: 0px;
+	cursor: pointer;
+	color: #262626;
+	margin-top: 30px;
+}
+
+@media (min-width: 500px) {
+	.side-nav {
+		display: none;
+	}
+}
