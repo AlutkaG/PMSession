@@ -178,6 +178,15 @@
 	.navigation-manual {
 		width: 300px;
 	}
+
+	.navigation-auto {
+		width: 300px;
+		margin-top: 214px;
+	}
+	.navigation-auto div {
+		width: 20px;
+		height: 20px;
+	}
 	.manual-btn {
 		width: 20px;
 		height: 20px;

@@ -39,20 +39,66 @@
 	height: 165px;
 }
 
-.yellow {
-	color: #efb822;
-}
-
 .stat-text {
 	font-weight: 600;
 	font-size: 55px;
 	color: white;
 }
-
+.yellow {
+	color: #efb822;
+}
 .grey-circle2 {
 	width: 962px;
 	height: 941px;
 	background-color: rgba(206, 203, 216, 0.35);
 	border-radius: 100%;
 	margin-left: 1260px;
+}
+
+@media (max-width: 500px) {
+	.stat-header {
+		width: 336px;
+		height: 50px;
+		font-size: 45px;
+		margin-top: 50px;
+		margin-left: 20px;
+	}
+	.stat-box {
+		width: 200px;
+		height: 200px;
+		background-color: #2f0ac3;
+		border: 1px solid #707070;
+		border-radius: 50px;
+		margin-right: 99px;
+		margin-top: 40px;
+	}
+
+	.stat-number {
+		font-weight: bold;
+		font-size: 60px;
+		height: 165px;
+	}
+
+	.stat-text {
+		font-weight: 600;
+		font-size: 25px;
+		margin-top: -80px;
+	}
+
+	.stat-full-screen {
+		display: none;
+	}
+
+	.stat-mobile-screen {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-left: 25%;
+	}
+}
+
+@media (min-width: 501px) {
+	.stat-mobile-screen {
+		display: none;
+	}
 }
