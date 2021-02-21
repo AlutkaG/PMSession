@@ -4,7 +4,6 @@
 	height: 840px;
 	background: #3b1ac9;
 	margin-top: 109px;
-	z-index: 1;
 	overflow: hidden;
 	color: white;
 	font-family: "Raleway", sans-serif;
@@ -35,8 +34,6 @@
 	font-size: 140px;
 	font-weight: normal;
 	color: #ededed;
-	width: 499px;
-	float: left;
 	padding-right: 50px;
 }
 
@@ -45,8 +42,6 @@
 	font-size: 140px;
 	font-weight: bold;
 	color: #efb822;
-	width: 313px;
-	float: right;
 }
 
 .wave-text5 {
@@ -78,6 +73,10 @@
 	width: 497px;
 	height: 515px;
 	padding-top: 110px;
+}
+
+.wave-session-full-screen {
+	display: flex;
 }
 
 /* Waves styling and waves animations */
@@ -130,5 +129,58 @@
 	}
 	100% {
 		background-position-x: -1000px;
+	}
+}
+
+@media (max-width: 500px) {
+	.wave-text {
+		padding-left: 30px;
+		padding-top: 50px;
+	}
+
+	.wave-text1 {
+		font-size: 18px;
+	}
+
+	.wave-text2 {
+		font-size: 30px;
+	}
+	.wave-text3 {
+		font-size: 90px;
+		margin-top: -30px;
+	}
+	.wave-text4 {
+		font-size: 90px;
+		margin-top: -60px;
+	}
+	.wave-text5 {
+		width: 92vw;
+		margin-top: -60px;
+	}
+
+	.wave-button {
+		margin-top: 100px;
+		width: 85vw;
+		height: 50px;
+		font-size: 25px;
+	}
+
+	.wave-session-full-screen {
+		display: none;
+	}
+}
+
+@media (min-width: 501px) {
+	.wave-text3 {
+		width: 499px;
+		float: left;
+	}
+
+	.wave-text4 {
+		width: 313px;
+		float: right;
+	}
+	.wave-session-mobile-screen {
+		display: none;
 	}
 }

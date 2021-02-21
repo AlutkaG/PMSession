@@ -44,7 +44,7 @@ const Thoughts = () => {
 				<div style={{ marginTop: "151px" }}>
 					{opinionRow.map((row, index) => {
 						return (
-							<div style={{ display: "flex" }}>
+							<div key={index} style={{ display: "flex" }}>
 								<div>
 									<img src={row.image} alt='' className='th-img' />
 									<div className='th-box-name-descp'>
