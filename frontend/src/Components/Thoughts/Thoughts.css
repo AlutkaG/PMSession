@@ -68,11 +68,11 @@
 
 @media (max-width: 500px) {
 	.th-header {
-		width: 336px;
+		width: 100vw;
 		height: 50px;
 		font-size: 45px;
 		margin-top: -950px;
-		margin-left: 20px;
+		margin-left: 0px;
 	}
 
 	.th-img {
@@ -88,7 +88,7 @@
 
 	.info {
 		width: 320px;
-		text-align: left;
+		text-align: center;
 		font-size: 20px;
 		margin-left: 20px;
 		margin-top: -40px;

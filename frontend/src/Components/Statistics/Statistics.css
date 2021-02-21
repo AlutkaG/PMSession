@@ -57,11 +57,11 @@
 
 @media (max-width: 500px) {
 	.stat-header {
-		width: 336px;
+		width: 100vw;
 		height: 50px;
 		font-size: 45px;
 		margin-top: 50px;
-		margin-left: 20px;
+		margin-left: 0px;
 	}
 	.stat-box {
 		width: 200px;

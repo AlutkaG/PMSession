@@ -161,16 +161,16 @@
 	}
 
 	.header-conf {
-		margin-left: 20px;
+		margin-left: 0px;
 		font-size: 45px;
-		width: 274px;
+		width: 100vw;
 		height: 50px;
 		margin-top: 80px;
 	}
 	.text-conf {
 		width: 320px;
 		margin-left: 20px;
-		text-align: left;
+		text-align: center;
 		font-size: 20px;
 		margin-top: 40px;
 	}
