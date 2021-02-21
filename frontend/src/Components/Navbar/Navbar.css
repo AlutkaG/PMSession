@@ -7,6 +7,7 @@
 	top: 0;
 	padding-top: 0px;
 	overflow-y: hidden;
+	overflow-x: hidden;
 	background-color: #ffffff;
 	box-shadow: -1px 13px 29px 0px rgba(0, 0, 0, 0.17);
 	z-index: 2;
@@ -60,7 +61,13 @@
 	}
 }
 
-@media (min-width: 501px) {
+@media (min-width: 501px) and (max-width: 1000px) {
+	.top-nav-links-right {
+		display: none;
+	}
+}
+
+@media (min-width: 1001px) {
 	.icon-menu {
 		display: none;
 	}

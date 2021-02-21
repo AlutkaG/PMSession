@@ -45,8 +45,19 @@
 	}
 }
 
-@media (min-width: 501px) {
-	.spon-mobile-screen {
+@media screen and (min-width: 501px) and (max-width: 1000px) {
+	.spon-header {
+		width: 100vw;
+		height: 50px;
+		font-size: 60px;
+		margin-left: 0;
+		margin-top: -400px;
+	}
+	.spon-name {
+		font-size: 40px;
+		margin-top: 80px;
+	}
+	.spon-full-screen {
 		display: none;
 	}
 }
