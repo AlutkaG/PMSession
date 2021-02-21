@@ -56,8 +56,6 @@
 	font-size: 27px;
 	font-weight: medium;
 	margin-left: 100px;
-	position: absolute;
-	top: 25%;
 }
 
 .th-box-name-descp {
@@ -66,4 +64,47 @@
 	margin-top: 16px;
 	margin-left: 140px;
 	margin-bottom: 86px;
+}
+
+@media (max-width: 500px) {
+	.th-header {
+		width: 336px;
+		height: 50px;
+		font-size: 45px;
+		margin-top: -950px;
+		margin-left: 20px;
+	}
+
+	.th-img {
+		width: 200px;
+		height: 200px;
+		border-radius: 100%;
+		margin-left: 20px;
+	}
+
+	.th-text {
+		margin-left: -130px;
+	}
+
+	.info {
+		width: 320px;
+		text-align: left;
+		font-size: 20px;
+		margin-left: 20px;
+		margin-top: -40px;
+	}
+
+	.th-full-screen {
+		display: none;
+	}
+}
+
+@media (min-width: 501px) {
+	.info {
+		position: absolute;
+		top: 25%;
+	}
+	.th-mobile-screen {
+		display: none;
+	}
 }
