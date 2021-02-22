@@ -66,6 +66,7 @@ const Thoughts = () => {
 						})}
 					</div>
 				</div>
+				<div className='grey-circle4' />
 			</div>
 			{/* mobile screen */}
 			<div className='th-mobile-screen'>
@@ -94,6 +95,7 @@ const Thoughts = () => {
 						})}
 					</div>
 				</div>
+				<div className='grey-circle4' />
 			</div>
 		</div>
 	);

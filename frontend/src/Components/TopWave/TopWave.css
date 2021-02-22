@@ -92,7 +92,6 @@
 }
 .wave1 {
 	animation: animate 30s linear infinite;
-	z-index: 1000;
 	opacity: 1;
 	animation-delay: 0s;
 	bottom: 0;
@@ -100,7 +99,6 @@
 
 .wave2 {
 	animation: animate2 15s linear infinite;
-	z-index: 999;
 	opacity: 0.5;
 	animation-delay: -5s;
 	bottom: 10px;
@@ -108,7 +106,6 @@
 
 .wave3 {
 	animation: animate2 20s linear infinite;
-	z-index: 998;
 	opacity: 0.3;
 	animation-delay: -2s;
 	bottom: 15px;

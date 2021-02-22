@@ -67,6 +67,12 @@
 }
 
 @media (max-width: 500px) {
+	#thoughts {
+		position: relative;
+		padding-top: 400px;
+		margin-top: -350px;
+	}
+
 	.th-header {
 		width: 100vw;
 		height: 50px;

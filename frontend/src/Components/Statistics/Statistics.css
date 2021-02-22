@@ -56,6 +56,11 @@
 }
 
 @media (max-width: 500px) {
+	#statistics {
+		position: relative;
+		margin-top: -400px;
+		padding-top: 400px;
+	}
 	.stat-header {
 		width: 100vw;
 		height: 50px;

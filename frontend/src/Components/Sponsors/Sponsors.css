@@ -1,3 +1,9 @@
+#sponsors {
+	position: relative;
+	padding-top: 200px;
+	margin-top: -500px;
+}
+
 .spon-header {
 	width: 399px;
 	height: 94px;
@@ -6,7 +12,6 @@
 	font-size: 80px;
 	font-weight: bold;
 	margin-left: 753px;
-	margin-top: -300px;
 }
 
 .spon-name {
@@ -28,6 +33,11 @@
 }
 
 @media (max-width: 500px) {
+	#sponsors {
+		position: relative;
+		margin-top: -900px;
+		padding-top: 900px;
+	}
 	.spon-header {
 		width: 100vw;
 		height: 50px;

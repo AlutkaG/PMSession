@@ -147,6 +147,11 @@
 }
 
 @media (max-width: 500px) {
+	#about-conference {
+		position: relative;
+		padding-top: 480px;
+		margin-top: -500px;
+	}
 	.slider {
 		width: 300px;
 		height: 300px;
