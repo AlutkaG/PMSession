@@ -1,0 +1,101 @@
+.footer-wave-container {
+	position: relative;
+	width: 100%;
+	height: 600px;
+	background: #3b1ac9;
+	margin-top: 109px;
+	overflow: hidden;
+	color: white;
+	font-family: "Raleway";
+}
+
+.footer-maps {
+	width: 600px;
+	height: 350px;
+	margin-top: 200px;
+	margin-left: 260px;
+	overflow: hidden;
+	border-radius: 50px;
+}
+
+.footer-text1 {
+	margin-top: 230px;
+	margin-left: 155px;
+	width: 551px;
+	height: 141px;
+	text-align: left;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.footer-text2 {
+	margin-top: 57px;
+	margin-left: 155px;
+	width: 104px;
+	height: 35px;
+	text-align: left;
+	font-size: 25px;
+	font-weight: medium;
+	font-style: italic;
+}
+
+.footer-text3 {
+	width: 586px;
+	height: 47px;
+	margin-left: 155px;
+	text-align: left;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.footer-wave {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background: url(../../Assets/wave.png);
+	background-size: 1000px 100px;
+	transform: rotate(180deg);
+}
+.footer-wave1 {
+	animation: animate 30s linear infinite;
+	z-index: 1000;
+	opacity: 1;
+	animation-delay: 0s;
+	bottom: 0;
+}
+
+.footer-wave2 {
+	animation: animate2 15s linear infinite;
+	z-index: 999;
+	opacity: 0.5;
+	animation-delay: -5s;
+	bottom: 10px;
+}
+
+.footer-wave3 {
+	animation: animate2 20s linear infinite;
+	z-index: 998;
+	opacity: 0.3;
+	animation-delay: -2s;
+	bottom: 15px;
+}
+
+@keyframes animate {
+	0% {
+		background-position-x: 0;
+	}
+	100% {
+		background-position-x: 1000px;
+	}
+}
+
+@keyframes animate2 {
+	0% {
+		background-position-x: 0;
+	}
+	100% {
+		background-position-x: -1000px;
+	}
+}

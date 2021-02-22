@@ -6,6 +6,7 @@ import Thoughts from "./Components/Thoughts/Thoughts";
 import TopWave from "./Components/TopWave/TopWave";
 import Sponsors from "./Components/Sponsors/Sponsors";
 import SideNavbar from "./Components/SideNavbar/SideNavbar";
+import Footer from "./Components/Footer/Footer";
 import { Router } from "react-router-dom";
 import { createBrowserHistory } from "history";
 import { useState } from "react";
@@ -33,6 +34,7 @@ function App() {
 				<Statistics />
 				<Thoughts />
 				<Sponsors />
+				<Footer />
 			</div>
 		</Router>
 	);

@@ -65,7 +65,6 @@ const Thoughts = () => {
 							);
 						})}
 					</div>
-					<div className='grey-circle4' />
 				</div>
 			</div>
 			{/* mobile screen */}
@@ -94,7 +93,6 @@ const Thoughts = () => {
 							);
 						})}
 					</div>
-					<div className='grey-circle4' />
 				</div>
 			</div>
 		</div>

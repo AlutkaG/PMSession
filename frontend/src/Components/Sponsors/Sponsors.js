@@ -13,6 +13,8 @@ const Sponsors = () => {
 	return (
 		<div id='sponsors'>
 			<div className='spon-full-screen'>
+				<div className='grey-circle4' />
+
 				<div className='spon-header'>Sponsorzy</div>
 				<div style={{ display: "flex", marginTop: "182px" }}>
 					<div>
