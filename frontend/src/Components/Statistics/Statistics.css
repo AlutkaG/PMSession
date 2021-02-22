@@ -2,7 +2,7 @@
 	color: #464646;
 	width: 621px;
 	height: 94px;
-	font-size: 80px;
+	font-size: 5vw;
 	font-weight: bold;
 	font-family: "Raleway";
 	margin-top: 228px;
@@ -10,24 +10,23 @@
 }
 
 .stat-box {
-	width: 482px;
-	height: 364px;
+	width: 25vw;
+	height: 30vh;
 	background-color: #2f0ac3;
 	border: 1px solid #707070;
-	border-radius: 99px;
-	margin-right: 99px;
+	border-radius: 5vw;
+	padding: 1vh 2vh 1vh 2vh;
+	margin: auto;
 }
 
 .stat-row1 {
 	display: flex;
-	margin-left: 138px;
 	margin-top: 157px;
 	font-family: "Raleway";
 }
 
 .stat-row2 {
 	display: flex;
-	margin-left: 138px;
 	margin-top: 98px;
 	font-family: "Raleway";
 }
@@ -35,8 +34,10 @@
 .stat-number {
 	font-weight: bold;
 	color: white;
-	font-size: 140px;
-	height: 165px;
+	font-size: 13vh;
+	height: 13vh;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
 }
 
 .stat-text {
@@ -55,7 +56,7 @@
 	margin-left: 1260px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 825px) {
 	#statistics {
 		position: relative;
 		margin-top: -400px;
@@ -102,7 +103,7 @@
 	}
 }
 
-@media (min-width: 501px) and (max-width: 1000px) {
+@media (min-width: 826px) and (max-width: 1700px) {
 	.stat-header {
 		width: 100vw;
 		height: 50px;
@@ -112,13 +113,13 @@
 	}
 
 	.stat-box {
-		width: 250px;
-		height: 250px;
 		margin: auto;
 	}
 	.stat-row1,
 	.stat-row2 {
-		margin-left: 35px;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-areas: "stat-box stat-box stat-box";
 	}
 
 	.stat-number {
