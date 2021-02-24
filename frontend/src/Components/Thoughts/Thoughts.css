@@ -1,11 +1,10 @@
 .th-header {
 	color: #464646;
-	font-size: 80px;
+	font-size: 8vh;
 	font-weight: bold;
 	font-family: "Raleway";
-	width: 761px;
+	width: 100vw;
 	height: 94px;
-	margin-left: 580px;
 }
 
 .grey-circle3 {
@@ -51,9 +50,9 @@
 }
 
 .info {
-	width: 1336px;
+	width: 60vw;
 	text-align: justify;
-	font-size: 27px;
+	font-size: 2.5vh;
 	font-weight: medium;
 	margin-left: 100px;
 }

@@ -37,7 +37,7 @@ const opinionRow = [
 
 const Thoughts = () => {
 	return (
-		<div id='thoughts' style={{ overflow: "hidden" }}>
+		<div id='thoughts'>
 			<div className='th-full-screen'>
 				<div className='grey-circle3' />
 				<div style={{ marginTop: "-650px" }}>

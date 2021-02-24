@@ -14,109 +14,55 @@ const Sponsors = () => {
 		<div id='sponsors'>
 			<div className='spon-full-screen'>
 				<div className='spon-header'>Sponsorzy</div>
-				<div style={{ display: "flex", marginTop: "182px" }}>
+				<div style={{ display: "flex", marginTop: "182px", width: "100vw" }}>
 					<div>
-						<div className='spon-name'>Organizator</div>
+						<div className='spon-name' style={{ width: "50vw" }}>
+							Organizator
+						</div>
 						<img
 							src={photo1}
 							alt=''
-							style={{
-								width: "644px",
-								height: "397px",
-								marginTop: "63px",
-								marginLeft: "248px",
-							}}
+							style={{ width: "40vw", marginTop: "10vh" }}
 						/>
 					</div>
 					<div>
-						<div className='spon-name' style={{ marginLeft: "322px" }}>
+						<div className='spon-name' style={{ width: "50vw" }}>
 							Sponsor strategiczny
 						</div>
 						<img
 							src={photo2}
 							alt=''
-							style={{
-								width: "372px",
-								height: "541px",
-								marginTop: "63px",
-								marginLeft: "322px",
-							}}
+							style={{ width: "30vw", marginTop: "10vh" }}
 						/>
 					</div>
 				</div>
 				<div className='spon-name' style={{ marginTop: "210px" }}>
 					Partnerzy
 				</div>
-				<img
-					src={photo3}
-					alt=''
-					style={{ marginTop: "80px", width: "648px", height: "157px" }}
-				/>
+				<img src={photo3} alt='' style={{ width: "45vw", marginTop: "10vh" }} />
 				<div className='spon-name' style={{ marginTop: "239px" }}>
 					Media
 				</div>
 				<div className='spon-media-div'>
 					<div>
-						<img
-							src={photo4}
-							alt=''
-							style={{ width: "444px", height: "273px", marginTop: "110px" }}
-						/>
+						<img src={photo4} alt='' style={{ width: "50vw" }} />
 					</div>
 					<div>
-						<img
-							src={photo5}
-							alt=''
-							style={{
-								width: "659px",
-								height: "152px",
-								marginTop: "183.5px",
-								marginLeft: "67.5px",
-							}}
-						/>
+						<img src={photo5} alt='' style={{ width: "50vw" }} />
 					</div>
 					<div>
-						<img
-							src={photo6}
-							alt=''
-							style={{
-								width: "423.5px",
-								height: "48px",
-								marginTop: "235px",
-								marginLeft: "45.5px",
-							}}
-						/>
+						<img src={photo6} alt='' />
 					</div>
 				</div>
 				<div className='spon-media-div2'>
 					<div>
-						<img
-							src={photo7}
-							alt=''
-							style={{ width: "588px", height: "166.5px" }}
-						/>
+						<img src={photo7} alt='' />
 					</div>
 					<div>
-						<img
-							src={photo8}
-							alt=''
-							style={{
-								width: "372px",
-								height: "180px",
-								marginLeft: "86px",
-							}}
-						/>
+						<img src={photo8} alt='' />
 					</div>
 					<div>
-						<img
-							src={photo9}
-							alt=''
-							style={{
-								width: "552px",
-								height: "133px",
-								marginLeft: "58px",
-							}}
-						/>
+						<img src={photo9} alt='' />
 					</div>
 				</div>
 			</div>

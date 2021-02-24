@@ -4,7 +4,7 @@ const TopWave = () => {
 	return (
 		<div>
 			<section className='wave-container2'>
-				<div style={{ display: "flex" }}>
+				<div className='wave-content'>
 					<div className='wave-text'>
 						<div className='wave-text1'>24-25 kwietnia 2021</div>
 						<div className='wave-text2'> Project Management</div>
@@ -22,7 +22,9 @@ const TopWave = () => {
 							<button className='wave-button'>Link do konferencji</button>
 						</div>
 					</div>
-					<img src={logo} alt='Logo' className='wave-img' />
+					<div className='wave-img'>
+						<img src={logo} alt='Logo' />
+					</div>
 				</div>
 				<div className='wave wave1'></div>
 				<div className='wave wave2'></div>
