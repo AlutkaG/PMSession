@@ -179,6 +179,9 @@
 	.wave-text5 {
 		width: 50vw;
 	}
+	.wave-session-mobile-screen {
+		display: none;
+	}
 }
 
 @media (min-width: 1401px) and (max-width: 1700px) {
@@ -190,21 +193,6 @@
 	.wave-text {
 		padding-left: 50px;
 	}
-	.wave-text3 {
-		width: 499px;
-		float: left;
-	}
-
-	.wave-text4 {
-		width: 313px;
-		float: right;
-	}
-	.wave-session-mobile-screen {
-		display: none;
-	}
-}
-
-@media (min-width: 1001px) {
 	.wave-text3 {
 		width: 499px;
 		float: left;

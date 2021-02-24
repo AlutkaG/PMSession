@@ -42,52 +42,18 @@ const Thoughts = () => {
 				<div className='grey-circle3' />
 				<div style={{ marginTop: "-650px" }}>
 					<div className='th-header'>Opinie o konferencji</div>
-					<div style={{ marginTop: "151px" }}>
+					<div style={{ marginTop: "80px" }}>
 						{opinionRow.map((row, index) => {
 							return (
-								<div key={index} style={{ display: "flex" }}>
-									<div>
+								<div key={index} className='th-content'>
+									<div className='left'>
 										<img src={row.image} alt='' className='th-img' />
 										<div className='th-box-name-descp'>
 											<div className='th-text name'>{row.name}</div>
 											<div className='th-text descp'>{row.description}</div>
 										</div>
 									</div>
-									<div
-										style={{
-											height: "200px",
-											position: "relative",
-										}}
-									>
-										<div className='th-text info'>{row.info}</div>
-									</div>
-								</div>
-							);
-						})}
-					</div>
-				</div>
-				<div className='grey-circle4' />
-			</div>
-			{/* mobile screen */}
-			<div className='th-mobile-screen'>
-				<div className='grey-circle3' />
-				<div>
-					<div className='th-header'>Opinie o konferencji</div>
-					<div style={{ marginTop: "151px" }}>
-						{opinionRow.map((row, index) => {
-							return (
-								<div
-									key={index}
-									style={{ display: "flex", flexDirection: "column" }}
-								>
-									<div>
-										<img src={row.image} alt='' className='th-img' />
-										<div className='th-box-name-descp'>
-											<div className='th-text name'>{row.name}</div>
-											<div className='th-text descp'>{row.description}</div>
-										</div>
-									</div>
-									<div style={{ marginBottom: "70px" }}>
+									<div className='right'>
 										<div className='th-text info'>{row.info}</div>
 									</div>
 								</div>

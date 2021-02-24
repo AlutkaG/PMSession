@@ -1,6 +1,6 @@
 .header-conf {
 	text-align: right;
-	font-size: 5vh;
+	font-size: 60px;
 	font-weight: bold;
 	color: #464646;
 	font-family: "Raleway";
@@ -145,12 +145,19 @@
 .about-full-screen {
 	display: flex;
 }
+.about-full1 {
+}
 
-@media (max-width: 825px) {
-	#about-conference {
-		position: relative;
-		padding-top: 480px;
-		margin-top: -500px;
+.about-full2 {
+}
+
+@media (max-width: 630px) {
+	.about-full-screen {
+		display: flex;
+		flex-wrap: wrap-reverse;
+	}
+	.about-full1 {
+		margin-top: -250px;
 	}
 	.slider {
 		width: 300px;
@@ -161,21 +168,18 @@
 		width: 300px;
 		height: 300px;
 	}
-	.about-full-screen {
-		display: none;
-	}
 
 	.header-conf {
-		margin-left: 0px;
+		text-align: center;
 		font-size: 45px;
 		width: 100vw;
-		height: 50px;
 		margin-top: 80px;
 	}
 	.text-conf {
-		width: 320px;
-		margin-left: 20px;
+		margin-left: 2vw;
 		text-align: center;
+		width: 90vw;
+		float: left;
 		font-size: 20px;
 		margin-top: 40px;
 	}
@@ -204,31 +208,86 @@
 	}
 }
 
-@media (min-width: 826px) and (max-width: 1300px) {
+@media (min-width: 631px) and (max-width: 830px) {
+	.about-full-screen {
+		display: flex;
+		flex-wrap: wrap-reverse;
+	}
+
+	.slider {
+		width: 500px;
+		height: 500px;
+		margin-left: 100px;
+	}
+	.slide img {
+		width: 500px;
+		height: 500px;
+	}
+	.about-full-screen {
+		display: none;
+	}
+
+	.navigation-manual {
+		width: 500px;
+	}
+
+	.navigation-auto {
+		width: 500px;
+		margin-top: 413px;
+	}
+	.navigation-auto div {
+		width: 20px;
+		height: 20px;
+	}
+	.manual-btn {
+		width: 20px;
+		height: 20px;
+	}
+	.grey-circle {
+		margin-left: 20px;
+		margin-top: -440px;
+		width: 500px;
+		height: 500px;
+	}
+}
+
+@media (min-width: 831px) and (max-width: 1300px) {
+	#about-conference {
+		position: relative;
+		padding-top: 480px;
+		margin-top: -500px;
+	}
+
+	.about-full-screen {
+		display: flex;
+		flex-wrap: wrap-reverse;
+	}
+
+	.about-mobile-screen {
+		display: none;
+	}
+}
+
+@media (min-width: 1301px) and (max-width: 1700px) {
 	.header-conf {
-		margin-left: 0px;
 		font-size: 60px;
-		width: 100vw;
 		height: 50px;
 		margin-top: 80px;
 	}
 	.text-conf {
-		width: 90vw;
 		margin-left: 30px;
-		text-align: center;
+		text-align: right;
 		font-size: 25px;
 		margin-top: 60px;
 	}
 	.slider {
 		margin-top: 80px;
 	}
-
 	.about-full-screen {
-		display: none;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: "about-full1 about-full2";
 	}
-}
-
-@media (min-width: 1301px) {
 	.about-mobile-screen {
 		display: none;
 	}
