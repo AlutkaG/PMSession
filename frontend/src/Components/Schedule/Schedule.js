@@ -5,7 +5,6 @@ import TopWave from "./TopWaveSection/TopWave";
 const Schedule = () => {
     return (
         <div>
-            Schedule
             <TopWave />
             <Programme />
             
