@@ -7,6 +7,10 @@ const Schedule = () => {
         <div>
             <TopWave />
             <Programme />
+            <div className="section-title programme-title">Prelegenci</div>
+            < SpeakersSection />
+            < SpeakersSection />
+            < SpeakersSection />
             
         </div>
     );

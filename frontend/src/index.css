@@ -17,6 +17,16 @@ code {
         monospace;
 }
 
-.section-title {
-    font-size: 80px;
+@media (max-width: 700px) {
+    .section-title {
+        font-size: 50px;
+        padding: 5vh 0 5vh 0;
+    }
+}
+
+@media (min-width: 700px) {
+    .section-title {
+        font-size: 80px;
+        padding: 5vh 0 5vh 0;
+    }
 }

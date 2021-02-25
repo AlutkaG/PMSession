@@ -11,10 +11,7 @@ const Programme = () => {
             <div className="date-container-right">25 kwietnia</div>
             <TimeLine />
 
-            <div className="section-title programme-title">Prelegenci</div>
-            < SpeakersSection />
-            < SpeakersSection />
-            < SpeakersSection />
+            
         </div>
     );
 };
