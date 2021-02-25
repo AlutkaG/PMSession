@@ -19,7 +19,7 @@ const Footer = () => {
 	return (
 		<div>
 			<section className='footer-wave-container'>
-				<div style={{ display: "flex" }}>
+				<div className='footer-content'>
 					<div className='footer-maps'>
 						<GoogleMapReact
 							bootstrapURLKeys={{

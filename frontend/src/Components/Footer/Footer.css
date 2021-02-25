@@ -1,27 +1,25 @@
 .footer-wave-container {
 	position: relative;
 	width: 100%;
-	height: 600px;
 	background: #3b1ac9;
 	margin-top: 109px;
-	overflow: hidden;
 	color: white;
 	font-family: "Raleway";
+	padding-bottom: 5vh;
 }
 
 .footer-maps {
-	width: 600px;
-	height: 350px;
+	width: 40vw;
+	height: 40vh;
 	margin-top: 200px;
-	margin-left: 260px;
+	margin-left: 10vw;
 	overflow: hidden;
 	border-radius: 50px;
 }
 
 .footer-text1 {
 	margin-top: 230px;
-	margin-left: 155px;
-	width: 551px;
+	margin-left: 10vw;
 	height: 141px;
 	text-align: left;
 	font-size: 35px;
@@ -30,8 +28,7 @@
 
 .footer-text2 {
 	margin-top: 57px;
-	margin-left: 155px;
-	width: 104px;
+	margin-left: 10vw;
 	height: 35px;
 	text-align: left;
 	font-size: 25px;
@@ -40,9 +37,8 @@
 }
 
 .footer-text3 {
-	width: 586px;
 	height: 47px;
-	margin-left: 155px;
+	margin-left: 10vw;
 	text-align: left;
 	font-size: 35px;
 	font-weight: 600;
@@ -97,5 +93,41 @@
 	}
 	100% {
 		background-position-x: -1000px;
+	}
+}
+
+.footer-content {
+	display: flex;
+	margin-right: 2vw;
+}
+
+@media (max-width: 1000px) {
+	.footer-content {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.footer-maps {
+		width: 80vw;
+	}
+	.footer-text1 {
+		margin-top: 5vh;
+		font-size: 25px;
+	}
+	.footer-text2 {
+		margin-top: -2vh;
+	}
+	.footer-text3 {
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 1001px) and (max-width: 1700px) {
+	.footer-text1 {
+		font-size: 30px;
+	}
+
+	.footer-text3 {
+		font-size: 30px;
 	}
 }
