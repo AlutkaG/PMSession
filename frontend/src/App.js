@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import AboutConference from "./Components/AboutConference/AboutConference";
 import Statistics from "./Components/Statistics/Statistics";
 import Thoughts from "./Components/Thoughts/Thoughts";
-import TopWave from "./Components/TopWave/TopWave";
+import TopWaveMain from "./Components/TopWaveMain/TopWaveMain";
 import Sponsors from "./Components/Sponsors/Sponsors";
 import SideNavbar from "./Components/SideNavbar/SideNavbar";
 import Footer from "./Components/Footer/Footer";
@@ -29,7 +29,7 @@ function App() {
 			<div className='App'>
 				<Navbar openClickHandler={openHandler} />
 				<SideNavbar show={sidenavOpen} onClose={closeNav} />
-				<TopWave />
+				<TopWaveMain />
 				<AboutConference />
 				<Statistics />
 				<Thoughts />

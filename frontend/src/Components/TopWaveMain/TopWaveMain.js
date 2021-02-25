@@ -1,6 +1,6 @@
-import "./TopWave.css";
+import "./TopWaveMain.css";
 import logo from "../../Assets/logo2018BW.png";
-const TopWave = () => {
+const TopWaveMain = () => {
 	return (
 		<div>
 			<section className='wave-container2'>
@@ -34,4 +34,4 @@ const TopWave = () => {
 	);
 };
 
-export default TopWave;
+export default TopWaveMain;

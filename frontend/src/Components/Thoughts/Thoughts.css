@@ -45,6 +45,7 @@
 	font-size: 25px;
 	font-weight: 600;
 	text-align: center;
+	width: 30vw;
 }
 
 .descp {
@@ -52,13 +53,15 @@
 	font-weight: medium;
 	font-style: italic;
 	margin-bottom: 86px;
+	text-align: center;
+	width: 30vw;
 }
 
 .info {
 	text-align: justify;
 	font-size: 22px;
 	font-weight: medium;
-	margin-left: 4vw;
+	margin-left: 2vw;
 	margin-top: 30px;
 }
 
@@ -70,8 +73,10 @@
 	margin-bottom: 86px;
 }
 .left {
+	width: 30vw;
 }
 .right {
+	width: 70vw;
 }
 .th-content {
 	display: flex;
@@ -99,6 +104,13 @@
 	}
 	.th-box-name-descp {
 		margin-bottom: 10px;
+	}
+	.left {
+		width: 100vw;
+	}
+	.right {
+		width: 100vw;
+		margin-right: 2vw;
 	}
 }
 
