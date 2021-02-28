@@ -1,28 +1,28 @@
 import "./SpeakersSection.css";
-const SpeakersSection = () => {
+
+
+const SpeakersSection = (props) => {
+    const speakersRows = props.speakersRows;
     return (
+        
         <div className="speakers-section">
-            <div className="speakers-section-title">Prelegenci</div>
-            <div className="speakers-section-content">
-                <div className="speakers-section-content-row">
-                    <div className="speakers-section-item">
-                        <div className="speakers-section-item-photo"></div>
-                        <div className="speakers-section-item-text">
-                            <div className="speakers-section-item-text-name">
-                                Magdalena Gruszka
-                            </div>
-                            <div className="speakers-section-item-text-subdescription">
-                                Pieniąki
-                            </div>
-                            <div className="speakers-section-item-text-description">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Curabitur eu tortor bibendum,
-                                tempus sapien in, egestas sem.
-                            </div>
-                        </div>
+            <div className="section-title programme-title">Prelegenci</div>
+            {speakersRows.map((row)=> {return(
+            <div className="speaker-item">
+                <div className="photo-l">
+                    <img src={row.photoL} alt=""/>
+                </div>
+                <div className="speaker-description">
+                    <div className="description-title">{row.title}</div>
+                    <div className="description-sub-title">{row.subTitle}</div>
+                    <div className="description-content">
+                        {row.description}
                     </div>
                 </div>
-            </div>
+                <div className="photo-l"><img src={row.photoR} alt=""/></div>
+            </div>)})}
+
+            
         </div>
     );
 };
