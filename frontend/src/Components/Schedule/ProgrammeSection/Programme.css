@@ -1,7 +1,9 @@
-.programme {
+#programme {
     display: flex;
     flex-direction: column;
-    padding: 1vh 0 1vh 0;
+    padding: 10vh 0 1vh 0;
+    position: relative;
+        padding-top: 150px;
 }
 
 .programme-title {
@@ -9,6 +11,10 @@
 }
 
 @media (max-width: 700px) {
+    #programme{
+       position: relative;
+        padding-top: 100px; 
+    }
     .date-container-left {
         width: 5em;
         background-color: #efb822;

@@ -1,3 +1,8 @@
+#about-conference{
+	position: relative;
+	padding-top: 200px;
+	margin-top: -200px;
+}
 .header-conf {
 	text-align: right;
 	font-size: 60px;
@@ -254,13 +259,17 @@
 @media (min-width: 831px) and (max-width: 1300px) {
 	#about-conference {
 		position: relative;
-		padding-top: 480px;
-		margin-top: -500px;
+		padding-top: 100px;
+	}
+	.header-conf{
+		text-align: center;
+		width: 100vw;
 	}
 
 	.about-full-screen {
 		display: flex;
 		flex-wrap: wrap-reverse;
+		justify-content: center;
 	}
 
 	.about-mobile-screen {
@@ -272,7 +281,7 @@
 	.header-conf {
 		font-size: 60px;
 		height: 50px;
-		margin-top: 80px;
+	margin-top: 80px;
 	}
 	.text-conf {
 		margin-left: 30px;

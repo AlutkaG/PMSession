@@ -1,29 +1,59 @@
 import "./SideNavbar.css";
-import { HashLink as Link } from "react-router-hash-link";
+import { HashLink } from "react-router-hash-link";
 import { BsChevronCompactUp } from "react-icons/bs";
 
 const SideNavbar = (props) => {
-	const onClose = (e) => {
-		props.onClose && props.onClose(e);
-	};
+  const onClose = (e) => {
+    props.onClose && props.onClose(e);
+  };
 
-	if (props.show) {
-		return null;
-	}
+  if (props.show) {
+    return null;
+  }
 
-	return (
-		<div className='side-nav'>
-			<Link to='/about-conference#about-conference'>O konferencji</Link>
-			<Link to='/statistics#statistics'>Statystyki</Link>
-			<Link to='/thoughts#thoughts'>Opinie</Link>
-			<Link to='#'>Prelegenci</Link>
-			<Link to='#'>Harmonogram</Link>
-			<Link to='/sponsors#sponsors'>Sponsorzy</Link>
-			<button className='side-close-btn' onClick={onClose}>
-				<BsChevronCompactUp size='20px' />
-			</button>
-		</div>
-	);
+  return (
+    <div className="side-nav">
+      <HashLink
+        to={{ pathname: "/firstPage", hash: "#about-conference" }}
+        onClick={onClose}
+      >
+        O konferencji
+      </HashLink>
+      <HashLink
+        to={{ pathname: "/firstPage", hash: "#statistics" }}
+        onClick={onClose}
+      >
+        Statystyki
+      </HashLink>
+      <HashLink
+        to={{ pathname: "/firstPage", hash: "#thoughts" }}
+        onClick={onClose}
+      >
+        Opinie
+      </HashLink>
+      <HashLink
+        to={{ pathname: "/firstPage", hash: "#sponsors" }}
+        onClick={onClose}
+      >
+        Sponsorzy
+      </HashLink>
+      <HashLink
+        to={{ pathname: "/schedule", hash: "#programme" }}
+        onClick={onClose}
+      >
+        Harmonogram
+      </HashLink>
+      <HashLink
+        to={{ pathname: "/schedule", hash: "#speakers-section" }}
+        onClick={onClose}
+      >
+        Prelegenci
+      </HashLink>
+      <button className="side-close-btn" onClick={onClose}>
+        <BsChevronCompactUp size="20px" />
+      </button>
+    </div>
+  );
 };
 
 export default SideNavbar;
