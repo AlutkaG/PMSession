@@ -1,0 +1,123 @@
+#statistics{
+	position: relative;
+	padding-top: 150px;
+	margin-top:-50px;
+}
+
+.stat-header {
+	color: #464646;
+	width: 100vw;
+	font-size: 4vw;
+	font-weight: bold;
+	font-family: "Raleway";
+	margin-top: 0px;
+	text-align: center;
+	
+}
+
+.stat-box {
+	width: 25vw;
+	height: 30vh;
+	background-color: #2f0ac3;
+	border: 1px solid #707070;
+	border-radius: 5vw;
+	padding: 1vh 2vh 1vh 2vh;
+	margin: auto;
+}
+
+.stat-row1 {
+	display: flex;
+	margin-top: 157px;
+	font-family: "Raleway";
+}
+
+.stat-row2 {
+	display: flex;
+	margin-top: 98px;
+	font-family: "Raleway";
+}
+
+.stat-number {
+	font-weight: bold;
+	color: white;
+	font-size: 5.5vw;
+	height: 13vh;
+	margin-top: 3vh;
+	text-align: center;
+	margin-bottom: 3vh;
+}
+
+.stat-text {
+	font-weight: 600;
+	font-size: 3vw;
+	text-align: center;
+	color: white;
+}
+.yellow {
+	color: #efb822;
+}
+.grey-circle2 {
+	width: 962px;
+	height: 941px;
+	background-color: rgba(206, 203, 216, 0.35);
+	border-radius: 100%;
+	margin-left: 1260px;
+}
+
+@media (max-width: 825px) {
+	#statistics {
+		position: relative;
+		padding-top:100px;
+		margin-top:-100px;
+	}
+	.stat-header {
+		width: 100vw;
+		height: 50px;
+		font-size: 45px;
+		margin-top: 50px;
+		margin-left: 0px;
+	}
+	.stat-box {
+		width: 200px;
+		height: 200px;
+		background-color: #2f0ac3;
+		border: 1px solid #707070;
+		border-radius: 50px;
+		margin-top: 40px;
+		text-align: center;
+
+	}
+
+	.stat-number {
+		font-weight: bold;
+		font-size: 60px;
+		height: 165px;
+		text-align: center;
+	}
+
+	.stat-text {
+		font-weight: 600;
+		font-size: 25px;
+		margin-top: -80px;
+	}
+
+	.stat-full-screen {
+		display: none;
+	}
+
+	.stat-mobile-screen {
+		display: flex;
+		flex-wrap: wrap;
+		margin:auto;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+
+
+@media (min-width: 1001px) {
+	.stat-mobile-screen {
+		display: none;
+	}
+}

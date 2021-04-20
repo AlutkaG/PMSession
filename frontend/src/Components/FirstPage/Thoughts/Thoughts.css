@@ -1,0 +1,151 @@
+#thoughts {
+	overflow: hidden;
+	position: relative;
+}
+
+.th-header {
+	color: #464646;
+	font-size: 4vw;
+	font-weight: bold;
+	font-family: "Raleway";
+	width: 100vw;
+	text-align: center;
+	height: 94px;
+}
+
+.grey-circle3 {
+	width: 847px;
+	height: 843px;
+	border-radius: 100%;
+	background-color: rgba(206, 203, 216, 0.35);
+	margin-left: -75px;
+}
+
+.grey-circle4 {
+	width: 847px;
+	height: 843px;
+	border-radius: 100%;
+	background-color: rgba(206, 203, 216, 0.35);
+	margin-top: -400px;
+	margin-left: 1303px;
+}
+
+.th-img {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	margin-left: 2vw;
+}
+
+.th-text {
+	color: #464646;
+	font-family: "Raleway";
+}
+
+.name {
+	font-size: 1.5vw;
+	font-weight: 600;
+	text-align: center;
+	width: 30vw;
+}
+
+.descp {
+	font-size: 1.2vw;
+	font-weight: medium;
+	font-style: italic;
+	margin-bottom: 86px;
+	text-align: center;
+	width: 30vw;
+}
+
+.info {
+	text-align: justify;
+	font-size: 1.3vw;
+	font-weight: medium;
+	margin-left: 2vw;
+	margin-top: 30px;
+}
+
+.th-box-name-descp {
+	width: 20vw;
+	height: 60px;
+	margin-top: 16px;
+	margin-left: 2vw;
+	margin-bottom: 86px;
+}
+.left {
+	width: 30vw;
+	text-align: center;
+}
+.right {
+	width: 60vw;
+	margin-right: 10vw;
+
+}
+.th-content {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (max-width: 900px) {
+	#thoughts{
+		position: relative;
+		padding-top:50px;
+		margin-top:-10px;
+	}
+
+	.th-header{
+		margin-top:0;
+		width:100vw;
+		font-size: 45px;
+	}
+	.th-content {
+		flex-wrap: wrap;
+	}
+	.name {
+		width: 100vw;
+		text-align: center;
+		font-size: 6vw;
+
+	}
+	.descp {
+		width: 100vw;
+		text-align: center;
+		font-size: 4vw;
+	}
+
+	.info {
+		margin-right: 10vw;
+		margin-left: 10vw;
+		text-align: center;
+		font-size: 3vw;
+	}
+	.th-img {
+		margin-top: 40px;
+	}
+	.th-box-name-descp {
+		margin-bottom: 10px;
+	}
+	.left {
+		width: 100vw;
+	}
+	.right {
+		width: 100vw;
+	}
+
+	.grey-circle3{
+		margin-top: 0;
+	}
+}
+
+@media (min-width: 901px) and (max-width: 1700px) {
+	.th-content {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: "left right";
+	}
+
+	.info {
+		margin-right: 30px;
+	}
+}

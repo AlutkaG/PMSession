@@ -1,0 +1,97 @@
+#speakers-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+        position: relative;
+        padding-top: 150px;
+    
+}
+
+@media (min-width: 1400px) {
+    .speaker-item {
+        display: grid;
+        grid-template-areas: " left-container mid-container right-container";
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 0;
+        margin-top: 1vh;
+    }
+}
+
+
+
+.photo-l {
+    border-radius: 30px;
+    margin: 5vh;
+    text-align: center;
+}
+.photo-l img {
+    border-radius: 30px;
+    width: 30vw;
+
+}
+
+/* .photo-r {
+    border: 4px solid #707070;
+    border-radius: 30px;
+    border-radius: 30px;
+    margin: 5vh;
+} */
+
+.speaker-description {
+    border: 4px solid #707070;
+    border-radius: 30px;
+    margin: 5vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 60vw;
+}
+
+.description-title {
+    padding: 1vh;
+    text-align: left;
+    font-size: 32px;
+}
+.description-sub-title {
+    padding: 1vh;
+    text-align: left;
+    font-size: 15px;
+    font-style: italic;
+}
+.description-content {
+    padding: 1vh;
+    text-align: left;
+    font-size: 20px;
+}
+@media (max-width: 1400px) {
+    #speakers-section{
+        position: relative;
+        padding-top: 100px;
+    }
+    .speaker-item {
+        display: grid;
+        grid-template-areas:
+            "time" " left-container "
+            "mid-container " " right-container";
+        grid-template-columns: 1fr;
+        margin-top: 1vh;
+    }
+    .second{
+        display: none;
+    }
+
+    .speaker-description{
+        width:80vw;
+        text-align: center;
+        margin:auto;
+        justify-content: center;
+    }
+    .photo-l{
+        width: 100vw;
+    }
+    .photo-l img{
+        width: 80vw;
+        
+    }
+}
