@@ -5,6 +5,13 @@
     align-items: center;
     justify-content: center;
     margin: 0;
+    width:90vw;
+    margin-left:5vw;
+    margin-right:5vw;
+}
+
+ul{
+    list-style: none;
 }
 
 /* .timeline {
@@ -76,7 +83,6 @@
 
 .time {
     grid-area: time;
-    width: 10vh;
     margin: auto;
     text-align: center;
     background-color: #efb822;

@@ -16,9 +16,7 @@ const SpeakersSection = (props) => {
               <div className="description-sub-title">{row.subTitle}</div>
               <div className="description-content">{row.description}</div>
             </div>
-            <div className="photo-l second">
-              <img src={row.photoR} alt="" />
-            </div>
+           
           </div>
         );
       })}

@@ -18,7 +18,7 @@ const Navbar = (props) => {
         </button>
         <div>
           <HashLink to="#">
-            <img src={logo} alt="Logo" height="100px" />
+            <img src={logo} alt="Logo" height="70px" style={{paddingLeft:"20px"}}/>
           </HashLink>
         </div>
         <div className="spacer" />

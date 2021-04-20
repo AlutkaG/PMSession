@@ -174,22 +174,22 @@ const AboutConference = (props) => {
         <div className="about-full2">
           <div className="header-conf">O konferencji</div>
           <div className="text-conf">
-            PMSession jest studencką konferencją zarządzania projektami to
-            dwudniowe wydarzenie skierowane zarówno do osób na co dzień
-            prowadzących własne projekty, ale także do początkujących, którzy
-            dopiero zapoznają się z dziedziną zarządzania projektami. <br />
+            Project Management Session to cykl szkoleń, dzięki którym dowiesz
+            się przede wszystkim, jak efektywniej prowadzić projekty, budować
+            sieć powiązań biznesowych, jak współpracować z kontrahentami, a
+            także w jaki sposób pozyskiwać nowe bazy klientów. 
+            Z uwagi na zaistniałą sytuację epidemiologiczną wydarzenie w tym
+            roku odbędzie się na platformie ZOOM.
             <br />
-            Wydarzenie co roku umożliwia jego uczestnikom zdobycie wiedzy na
-            temat metodyk i praktyk stosowanych przez największe firmy w tej
-            dziedzinie. Konferencja PM Session to nie tylko prelekcje, ale
-            również gry symulacyjne i warsztaty, które stanowią znaczną część
-            jej programu - wszak to one najlepiej odzwierciedlają problemy,
-            które mają miejsce przy realizacji projektów. <br />
-            <br />
-            Project Management Session to wydarzenie przyciągające zarówno
-            studentów, jak i przedstawicieli biznesu, dlatego stanowi idealną
-            okazję do efektywnego networkingu i wymiany doświadczeń pomiędzy
-            uczestnikami wydarzenia.
+            Nasi prelegenci, którzy podzielą się swoim doświadczeniem, to ludzie
+            pełni pasji, na co dzień zaangażowani w rozwiązywanie realnych
+            wyzwań, jakie stawia przed nimi realizacja projektu. To szczególnie
+            ważne, by w tej dziedzinie być „na bieżąco”, ponieważ w dzisiejszych
+            czasach rynek jest dynamicznie kształtowany przez konsumenta.
+            Podczas cyklu szkoleń zostanie poruszony między innymi temat
+            radzenia sobie w stresujących sytuacjach, więc skorzystają na tym
+            także osoby pracujące w takich warunkach. Nie może Cię zabraknąć, do
+            zobaczenia online.
           </div>
         </div>
       </div>

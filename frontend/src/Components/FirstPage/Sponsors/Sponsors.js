@@ -1,13 +1,8 @@
 import "./Sponsors.css";
 import photo1 from "../../../Assets/logo_pmg.png";
 import photo2 from "../../../Assets/pwr_logo.png";
-import photo3 from "../../../Assets/control_tec_logo.png";
-import photo4 from "../../../Assets/biuroKarier.png";
-import photo5 from "../../../Assets/dlastudentapl-logo.jpg";
-import photo6 from "../../../Assets/studentnews.png";
-import photo7 from "../../../Assets/podPrad.jpg";
-import photo8 from "../../../Assets/pmi-logo.png";
-import photo9 from "../../../Assets/StrefaPMI.png";
+import photo3 from "../../../Assets/MRMlogotyp-1.png";
+import photo4 from "../../../Assets/sponsor2.jpg";
 
 const Sponsors = () => {
   return (
@@ -28,7 +23,7 @@ const Sponsors = () => {
             <img
               src={photo2}
               alt=""
-              style={{ width: "30vw", marginTop: "10vh" }}
+              style={{ width: "20vw", marginTop: "10vh" }}
             />
           </div>
         </div>
@@ -42,8 +37,15 @@ const Sponsors = () => {
             style={{ width: "45vw", marginTop: "10vh" }}
           />
         </div>
-        <div className="spon-name" style={{ marginTop: "15vh" }}>
-          Media
+        <div className="spon-partners-div">
+          <img
+            src={photo4}
+            alt=""
+            style={{ width: "45vw", marginTop: "10vh" }}
+          />
+        </div>
+         {/*  <div className="spon-name" style={{ marginTop: "15vh" }}>
+        Media
         </div>
         <div className="spon-media-div">
           <div className="image">
@@ -66,7 +68,7 @@ const Sponsors = () => {
           <div className="image">
             <img src={photo9} alt="" />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

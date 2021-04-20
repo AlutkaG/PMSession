@@ -22,16 +22,16 @@
 	margin-left: 10vw;
 	height: 141px;
 	text-align: left;
-	font-size: 35px;
+	font-size: 1.5vw;
 	font-weight: 600;
 }
 
 .footer-text2 {
-	margin-top: 57px;
+	margin-top: 20px;
 	margin-left: 10vw;
 	height: 35px;
 	text-align: left;
-	font-size: 25px;
+	font-size: 1.5vw;
 	font-weight: medium;
 	font-style: italic;
 }
@@ -40,7 +40,7 @@
 	height: 47px;
 	margin-left: 10vw;
 	text-align: left;
-	font-size: 35px;
+	font-size: 1.5vw;
 	font-weight: 600;
 }
 
@@ -112,22 +112,12 @@
 	}
 	.footer-text1 {
 		margin-top: 5vh;
-		font-size: 25px;
+		font-size: 20px;
 	}
 	.footer-text2 {
 		margin-top: -2vh;
 	}
 	.footer-text3 {
-		font-size: 25px;
-	}
-}
-
-@media (min-width: 1001px) and (max-width: 1700px) {
-	.footer-text1 {
-		font-size: 30px;
-	}
-
-	.footer-text3 {
-		font-size: 30px;
+		font-size: 20px;
 	}
 }

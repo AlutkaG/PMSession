@@ -26,8 +26,8 @@
 }
 .photo-l img {
     border-radius: 30px;
-    height: auto;
-    max-width: 100%;
+    width: 30vw;
+
 }
 
 /* .photo-r {
@@ -45,7 +45,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 50vh;
+    width: 60vw;
 }
 
 .description-title {
@@ -82,7 +82,7 @@
     }
 
     .speaker-description{
-        width: 50vw;
+        width:80vw;
         text-align: center;
         margin:auto;
         justify-content: center;
@@ -91,7 +91,7 @@
         width: 100vw;
     }
     .photo-l img{
-        width: 50vw;
+        width: 80vw;
         
     }
 }

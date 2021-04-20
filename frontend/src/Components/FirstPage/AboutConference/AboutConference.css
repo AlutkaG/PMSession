@@ -1,45 +1,48 @@
 #about-conference{
 	position: relative;
-	padding-top: 200px;
-	margin-top: -200px;
+	padding-top: 100px;
+	margin-top: -100px;
 }
 .header-conf {
 	text-align: right;
-	font-size: 60px;
+	font-size: 3vw;
 	font-weight: bold;
 	color: #464646;
 	font-family: "Raleway";
-	margin-top: 227px;
-	margin-right: 3vw;
+	margin-top: 80px;
+	margin-right: 5vw;
 	float: right;
 }
 
 .text-conf {
-	font-size: 25px;
+	font-size: 1.1vw;
 	font-weight: 600;
 	color: #464646;
 	font-family: "Raleway";
-	margin-top: 88px;
+	margin-top: 50px;
 	text-align: justify;
 	float: right;
+	width: 50vw;
 	margin-left: 5vw;
-	margin-right: 3vw;
+	margin-right: 5vw;
+	letter-spacing: 1.2px;
+	line-height: 1.8vw;
 }
 
 .grey-circle {
 	margin-left: 95px;
-	margin-top: -550px;
-	width: 636px;
-	height: 625px;
+	margin-top: -400px;
+	width: 436px;
+	height: 425px;
 	background-color: rgba(206, 203, 216, 0.35);
 	border-radius: 100%;
 }
 
 .slider {
 	margin-left: 188px;
-	margin-top: 328px;
-	width: 642px;
-	height: 642px;
+	margin-top: 80px;
+	width: 442px;
+	height: 442px;
 	overflow: hidden;
 }
 
@@ -57,14 +60,14 @@
 }
 
 .slide img {
-	width: 642px;
-	height: 642px;
+	width: 442px;
+	height: 442px;
 	border-radius: 100%;
 }
 
 .navigation-manual {
 	position: absolute;
-	width: 642px;
+	width: 442px;
 	display: flex;
 	justify-content: center;
 	margin-top: -90px;
@@ -162,7 +165,7 @@
 		flex-wrap: wrap-reverse;
 	}
 	.about-full1 {
-		margin-top: -250px;
+		margin-top: -50px;
 	}
 	.slider {
 		width: 300px;
@@ -185,7 +188,8 @@
 		text-align: center;
 		width: 90vw;
 		float: left;
-		font-size: 20px;
+		font-size: 4vw;
+		line-height: 5vw;
 		margin-top: 40px;
 	}
 
@@ -277,27 +281,3 @@
 	}
 }
 
-@media (min-width: 1301px) and (max-width: 1700px) {
-	.header-conf {
-		font-size: 60px;
-		height: 50px;
-	margin-top: 80px;
-	}
-	.text-conf {
-		margin-left: 30px;
-		text-align: right;
-		font-size: 25px;
-		margin-top: 60px;
-	}
-	.slider {
-		margin-top: 80px;
-	}
-	.about-full-screen {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-template-areas: "about-full1 about-full2";
-	}
-	.about-mobile-screen {
-		display: none;
-	}
-}
