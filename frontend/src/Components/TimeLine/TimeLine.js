@@ -193,7 +193,7 @@ const TimeLine = () => {
                             <div className="coffee-logo">
                                 <img src={coffee} alt=""/>
                             </div>
-                            <div className="coffee-break-text">Coffee break</div>
+                            <div className="coffee-break-text">Coffee break - Dr. Joanna Rzempała – IPMA Polska</div>
                         </div>
 
                     </div> 
@@ -354,6 +354,10 @@ const TimeLine = () => {
                                     <div className="details-xm">Cykl projektu informatycznego od sprzedaży do wdrożenia. <strong>Warsztaty</strong></div>
                                 </div>
                             </div>
+                        </div>
+                        <div className="description4 description">
+                            
+                            
                         </div>
                     </div>
                 </li>

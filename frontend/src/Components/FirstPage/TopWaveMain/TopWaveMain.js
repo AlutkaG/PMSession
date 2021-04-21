@@ -19,7 +19,7 @@ const TopWaveMain = () => {
               początkujących jak i profesjonalnych project managerów.
             </div>
             <div style={{ paddingTop: "45px" }}>
-              <button className="wave-button">Link do konferencji</button>
+              <button className="wave-button"><a href="https://pwr-edu.zoom.us/j/95705993032">Link do konferencji</a></button>
             </div>
           </div>
           <div className="wave-img">
