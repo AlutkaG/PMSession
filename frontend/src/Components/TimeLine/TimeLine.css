@@ -99,6 +99,7 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    width:40vw;
 }
 
 .description1 {
@@ -109,6 +110,10 @@ ul{
 }
 .description3 {
     grid-area: right-container;
+}
+.description4 {
+    grid-area: mid-container;
+    border:none;
 }
 
 .title {
@@ -176,4 +181,5 @@ ul{
     align-items: center;
     padding: 2vh;
     font-size: 50px;
+    text-align: center;
 }

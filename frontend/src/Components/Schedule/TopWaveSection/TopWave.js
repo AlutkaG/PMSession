@@ -6,7 +6,7 @@ const TopWave = () => {
             <section className="wave-container">
                 <div className="wave-item">
                     <div className="wave-text">
-                        <div className="wave-text-small">21-23 Marca 2021</div>
+                        <div className="wave-text-small">24-25 kwietnia 2021</div>
                         <div className="wave-text-big">Wydarzenie</div>
                     </div>
                     <div className="wave-logo">

@@ -9,6 +9,11 @@
 	font-family: "Raleway", sans-serif;
 }
 
+a{
+	text-decoration: none;
+	color:white;
+}
+
 .wave-text {
 	padding-left: 2vw;
 	text-align: left;
@@ -60,6 +65,8 @@
 	font-weight: medium;
 	font-size: 1.5vw;
 	padding: 20px 150px 20px 150px;
+	margin-top: 30px;
+	cursor: pointer;
 }
 
 .wave-button:hover {
@@ -184,7 +191,7 @@
 	}
 }
 
-@media (min-width: 1401px) and (max-width: 1700px) {
+@media (min-width: 1401px) {
 	.wave-content {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -204,5 +211,21 @@
 	}
 	.wave-session-mobile-screen {
 		display: none;
+	}
+}
+
+@media (min-width: 1701px){
+	.wave-session-mobile-screen {
+		display: none;
+	}
+}
+
+@media (min-width: 1900px){
+	.wave-session-mobile-screen {
+		display: none;
+	}
+
+	.wave-text4{
+		margin-left: 10px;
 	}
 }
