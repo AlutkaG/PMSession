@@ -9,6 +9,15 @@ import photo4 from "../../Assets/g_szal.jpg";
 
 
 const speakersRows = [
+  
+    
+  {
+    title: "Grzegorz Szałajko",
+    subTitle: "Międzynarodowy ekspert w obszarze zarządzania projektami",
+    description:
+      "Jako doradca strategiczny wspiera organizacje w budowaniu strategii, modeli biznesowych oraz skutecznych środowisk do realizacji przedsięwzięć i wprowadzania zmian. Posiada doświadczenie zawodowe obejmujące zarówno współpracę z firmami o zasięgu globalnym jak i z lokalnymi liderami rynku w branżach takich jak IT, telekomunikacja, outsourcing usług, finanse i bankowość, R&D, edukacja, produkcja przemysłowa, energetyka czy branża wydobywcza.  Od 2005 roku aktywnie współtworzy prestiżowy konkurs IPMA Global Project Excellence Award. Uczestniczy również w tworzeniu międzynarodowych standardów, m.in. jako wiodący edytor IPMA Project Excellence Baseline oraz członek core team PMI Global Standard for Portfolio, Program and Project Risk Management. W roku 2016 uhonorowany międzynarodową nagrodą IPMA Otto Ziegelmeier Award za wkład w promowanie doskonałości w zarządzaniu projektami. W roku 2018 uhonorowany przez IPMA Polska nagrodą Atlas Project Management’u za szczególny wkład w rozwój dziedziny zarządzania projektami. Można spotkać go również jako cenionego speakera podczas licznych wydarzeń w kraju i na świecie. ",
+    photoL: photo4,
+  },
   {
     title: "Dariusz Gajewicz",
     subTitle: "Project Manager",
@@ -34,13 +43,6 @@ const speakersRows = [
     photoL: photo3,
   },
 
-  {
-    title: "Grzegorz Szałajko",
-    subTitle: "Międzynarodowy ekspert w obszarze zarządzania projektami",
-    description:
-      "Jako doradca strategiczny wspiera organizacje w budowaniu strategii, modeli biznesowych oraz skutecznych środowisk do realizacji przedsięwzięć i wprowadzania zmian. Posiada doświadczenie zawodowe obejmujące zarówno współpracę z firmami o zasięgu globalnym jak i z lokalnymi liderami rynku w branżach takich jak IT, telekomunikacja, outsourcing usług, finanse i bankowość, R&D, edukacja, produkcja przemysłowa, energetyka czy branża wydobywcza.  Od 2005 roku aktywnie współtworzy prestiżowy konkurs IPMA Global Project Excellence Award. Uczestniczy również w tworzeniu międzynarodowych standardów, m.in. jako wiodący edytor IPMA Project Excellence Baseline oraz członek core team PMI Global Standard for Portfolio, Program and Project Risk Management. W roku 2016 uhonorowany międzynarodową nagrodą IPMA Otto Ziegelmeier Award za wkład w promowanie doskonałości w zarządzaniu projektami. W roku 2018 uhonorowany przez IPMA Polska nagrodą Atlas Project Management’u za szczególny wkład w rozwój dziedziny zarządzania projektami. Można spotkać go również jako cenionego speakera podczas licznych wydarzeń w kraju i na świecie. ",
-    photoL: photo4,
-  },
  
 ];
 

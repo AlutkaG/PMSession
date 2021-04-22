@@ -17,11 +17,11 @@ a{
 .wave-text {
 	padding-left: 2vw;
 	text-align: left;
-	margin-top: -50px;
+	margin-top: 0px;
 }
 
 .wave-text1 {
-	font-size: 1.2vw;
+	font-size:2vh;
 	color: #f4cd57;
 	font-weight: 600;
 }
@@ -29,32 +29,31 @@ a{
 .wave-text2 {
 	padding-top: 27px;
 	color: #ededed;
-	font-size: 3vw;
+	font-size: 5vh;
 	font-weight: normal;
 	flex-wrap: wrap;
 	height: 70px;
 }
 
 .wave-text3 {
-	font-size: 7vw;
+	font-size: 12vh;
 	font-weight: normal;
 	color: #ededed;
 }
 
 .wave-text4 {
-	font-size: 7vw;
+	font-size: 12vh;
 	font-weight: bold;
 	color: #efb822;
 	margin-left: -70px;
 }
 
 .wave-text5 {
-	height: 52px;
-	width: 707px;
-	font-size: 1.4vw;
+	font-size: 2.2vh;
 	font-weight: normal;
 	color: #ededed;
 	padding-top: 27px;
+	width:40vw;
 }
 
 .wave-button {
@@ -63,9 +62,9 @@ a{
 	border: 1px solid #707070;
 	color: white;
 	font-weight: medium;
-	font-size: 1.5vw;
-	padding: 20px 150px 20px 150px;
-	margin-top: 30px;
+	font-size: 2.2vh;
+	padding: 2vh 10vw 2vh 10vw;
+	margin-top: 2vh;
 	cursor: pointer;
 }
 
@@ -73,11 +72,10 @@ a{
 	background-color: #d75f28;
 }
 
-.wave-img {
+.wave-img img{
 	margin: auto;
-	width: 497px;
-	height: 515px;
-	padding-top: 30px;
+	margin-top:5vh;
+	height: 50vh;
 }
 
 .wave-session-full-screen {
@@ -143,35 +141,33 @@ a{
 @media (max-width: 1130px) {
 	.wave-text {
 		padding-left: 30px;
-		padding-top: 70px;
+		padding-top: 80px;
 	}
 
 	.wave-text1 {
-		font-size: 18px;
+		font-size: 2vh;
 	}
 
 	.wave-text2 {
-		font-size:7vw;
+		font-size:4vh;
 	}
 	.wave-text3 {
-		font-size: 15vw;
+		font-size: 12vh;
 		margin-top: -30px;
 	}
 	.wave-text4 {
-		font-size: 15vw;
+		font-size: 12vh;
 		margin-left: 1vw;
 
 	}
 	.wave-text5 {
-		width:80vw;
-		font-size: 3vw;
+		width:50vw;
+		font-size: 2.2vh;
 	}
 
 	.wave-button {
 		margin-top: 0px;
-		padding-left: 20vw;
-		padding-right: 20vw;
-		font-size: 4.5vw;
+	
 	}
 
 	.wave-session-full-screen {
@@ -189,6 +185,9 @@ a{
 	.wave-session-mobile-screen {
 		display: none;
 	}
+	.wave-text4{
+		margin-left: 30px;
+	}
 }
 
 @media (min-width: 1401px) {
@@ -201,12 +200,11 @@ a{
 		padding-left: 50px;
 	}
 	.wave-text3 {
-		width: 499px;
 		float: left;
 	}
 
 	.wave-text4 {
-		width: 313px;
+		margin-left: 2vw;
 		float: right;
 	}
 	.wave-session-mobile-screen {
@@ -226,6 +224,7 @@ a{
 	}
 
 	.wave-text4{
-		margin-left: 10px;
+		margin-left: 2vw;
+		float:left;
 	}
 }
