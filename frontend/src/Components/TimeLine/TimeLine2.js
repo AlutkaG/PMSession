@@ -75,7 +75,7 @@ const TimeLine2 = () => {
                                 <div className="speaker-name">
                                     <div className="details-sm">Prelegent:</div>
                                     <div className="details-xm">
-                                       Szymon Górnik
+                                       Łukasz Paluszczkiewicz
                                     </div>
                                 </div>
                                 <div className="type">
