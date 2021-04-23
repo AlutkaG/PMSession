@@ -138,6 +138,8 @@ a{
 	}
 }
 
+
+
 @media (max-width: 1130px) {
 	.wave-text {
 		padding-left: 30px;
@@ -226,5 +228,24 @@ a{
 	.wave-text4{
 		margin-left: 2vw;
 		float:left;
+	}
+}
+
+@media (max-width:600px){
+	.wave-img{
+		display: none;
+	}
+
+	.wave-text{
+		margin-top: -40px;
+	}
+
+	.wave-text5{
+		width:80vw;
+		font-size: 2vh;
+	}
+
+	.wave-button{
+		margin-top: -50px;
 	}
 }
