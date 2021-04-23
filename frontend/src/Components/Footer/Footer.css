@@ -6,6 +6,7 @@
 	color: white;
 	font-family: "Raleway";
 	padding-bottom: 5vh;
+	z-index: 0;
 }
 
 .footer-maps {

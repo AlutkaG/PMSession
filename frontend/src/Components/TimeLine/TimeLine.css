@@ -81,6 +81,8 @@ ul{
     }
 }
 
+
+
 .time {
     grid-area: time;
     margin: auto;
@@ -182,4 +184,15 @@ ul{
     padding: 2vh;
     font-size: 50px;
     text-align: center;
+}
+
+@media (max-width: 600px) {
+    .item {
+        display: flex;
+        flex-direction: column;       
+    }
+
+    .description{
+        width:80vw;
+    }
 }
